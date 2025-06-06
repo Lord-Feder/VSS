@@ -1,6 +1,8 @@
 
 
+
 class nonNumpyPolynomial:
+    """Inspired to be similar to numpy Polynomial class, but it doesn't use numpy integers that are problematic when dealing with very big numbers"""
     def __init__(self, coefficients):
         self.coefficients=coefficients
 
